@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sana Zakeer — Web Designer & Developer</title>
+  <meta name="description" content="Portfolio of Sana Zakeer — Web Designer & Developer based in Dubai." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/styles/styles.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="logo">
+        <img src="static/images/logo.png" alt="Sana Zakeer logo" onerror="this.style.display='none'">
+        <div>
+          <div style="font-weight:800">Sana Zakeer</div>
+          <div style="font-size:12px;color:var(--muted)">Web Designer & Developer — Dubai</div>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#work">Experience</a>
+        <a href="project.html">Projects</a>
+        <a class="cta" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="video-bg" aria-hidden>
+        <video autoplay muted loop playsinline>
+          <source src="static/videos/heroine.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <div class="card">
+            <h1>Hi — I'm <span style="color:var(--accent)">Sana Zakeer</span></h1>
+            <p class="sub">
+              I design and build responsive websites and web apps. Currently working as a Web Developer at ENNOVITEC in UAE.
+              I blend clean visuals with solid front-end engineering and WordPress experience.
+            </p>
+
+            <div class="hero-buttons">
+              <a class="btn btn-primary" href="/project.html">View work</a>
+              <a class="btn" href="resume/SANA-ZAKEER-ItEngineerResume.pdf" download>Download CV</a>
+            </div>
+
+            <hr>
+
+            <strong>Primary skills</strong>
+            <div class="skills">
+              <span class="skill">HTML</span>
+              <span class="skill">CSS / Bootstrap</span>
+              <span class="skill">JavaScript</span>
+              <span class="skill">WordPress</span>
+              <span class="skill">AWS (Basics)</span>
+              <span class="skill">Python</span>
+            </div>
+          </div>
+        </div>
+
+        <aside style="width:320px">
+          <div class="card profile-card">
+            <h3>Contact</h3>
+            <p><strong>Sana Zakeer</strong></p>
+            <p>Dubai, UAE</p>
+            <p>
+              ✉️ <a href="">sanazakeer7(at)gmail.com</a>
+            </p>
+
+            <a class="btn" href="#contact">Hire me</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="container">
+      <div class="two-col">
+        <div>
+          <h2>About me</h2>
+          <p>
+            I'm an IT Engineer with a passion for web design, cloud computing and automation.
+            I build responsive websites using HTML, CSS, Bootstrap and WordPress and have experience with AWS, Microsoft 365 and basic DevOps workflows.
+          </p>
+
+          <h3>Education</h3>
+          <p><strong>B.Tech Computer Science — APJ Abdul Kalam Technological University</strong><br>2017 — 2021</p>
+
+          <h3>Relevant coursework & learning</h3>
+          <p>Cloud Computing, DevOps practices, Linux administration, Python programming, Web designing.</p>
+        </div>
+
+        <aside>
+          <div class="card">
+            <h4>Quick facts</h4>
+            <p><strong>Languages:</strong> English, Malayalam, Arabic (Beginner), Tamil (Beginner), Hindi (Beginner)</p>
+            <p><strong>Tools:</strong> Git, GitHub, Docker, ServiceNow, Microsoft 365</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+
+    <!-- SERVICES (matches screenshot) -->
+    <section id="services" class="container">
+      <h2 class="section-title">My Skills</h2>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <img src="static/images/icon-web.png" alt="Web Design icon" class="service-icon">
+          </div>
+          <h3 class="service-title">Web Design</h3>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <img src="static/images/icon-uiux.png" alt="UI/UX icon" class="service-icon">
+          </div>
+          <h3 class="service-title">UI/UX Design</h3>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <img src="static/images/icon-cloud.png" alt="Cloud & DevOps icon" class="service-icon">
+          </div>
+          <h3 class="service-title">Cloud & DevOps</h3>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <img src="static/images/icon-scripting.png" alt="Scripting & Programming icon" class="service-icon">
+          </div>
+          <h3 class="service-title">Scripting & Programming</h3>
+        </div>
+
+
+      </div>
+    </section>
+
+    <!-- Skills / Progress section -->
+    <section id="skills-progress" class="container">
+    <div class="skills-wrap">
+        <div class="skills-col">
+
+        <div class="skill-row">
+            <div class="skill-label">
+            <span>HTML/CSS/JS</span>
+            <span class="skill-percent">80%</span>
+            </div>
+            <div class="progress-track">
+            <div class="progress-fill" data-percent="80"></div>
+            </div>
+        </div>
+
+        <div class="skill-row">
+            <div class="skill-label">
+            <span>PYTHON</span>
+            <span class="skill-percent">70%</span>
+            </div>
+            <div class="progress-track">
+            <div class="progress-fill" data-percent="70"></div>
+            </div>
+        </div>
+        </div>
+
+        <div class="skills-col">
+        
+        <div class="skill-row">
+            <div class="skill-label">
+            <span>CANVA</span>
+            <span class="skill-percent">80%</span>
+            </div>
+            <div class="progress-track">
+            <div class="progress-fill" data-percent="80"></div>
+            </div>
+        </div>
+
+        <div class="skill-row">
+            <div class="skill-label">
+            <span>WORDPRESS</span>
+            <span class="skill-percent">70%</span>
+            </div>
+            <div class="progress-track">
+            <div class="progress-fill" data-percent="70"></div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+    <!-- end Skills / Progress section -->
+
+
+    <!-- EXPERIENCE -->
+    <section id="work" class="container">
+      <h2 class="section-title">Work experience</h2>
+
+      <div class="card exp">
+        <h3>Web Developer — ENNOVITEC, UAE</h3>
+        <p class="muted">Jul 2025 — Present</p>
+        <ul>
+          <li>Built and optimized responsive websites using HTML, CSS, Bootstrap and WordPress.</li>
+          <li>Enhanced user engagement and site performance.</li>
+        </ul>
+      </div>
+
+      <div class="card exp">
+        <h3>Trainee Engineer — QUEST GLOBAL</h3>
+        <p class="muted">Dec 2024</p>
+        <p>Short-term training and engineering workflow exposure.</p>
+      </div>
+
+      <div class="card exp">
+        <h3>Intern — Quest Innovative Solutions</h3>
+        <p class="muted">Sep 2021 — Nov 2021</p>
+        <p>Python Full Stack Development internship.</p>
+      </div>
+
+      <div class="card exp">
+        <h3>Intern — CodeTech IT Solution</h3>
+        <p class="muted">Dec 2021 — Jan 2023</p>
+        <p>Cloud computing internship and project work.</p>
+      </div>
+    </section>
+
+    
+
+    <!-- CONTACT -->
+    <section id="contact" class="container">
+      <h2 class="section-title">Contact & hire</h2>
+
+      <div class="contact-grid">
+        <div class="card">
+          <form id="contactForm">
+            <label>Your name</label>
+            <input required name="name" placeholder="Your name">
+
+            <label>Email</label>
+            <input required type="email" name="email" placeholder="you@example.com">
+
+            <label>Message</label>
+            <textarea required name="message" rows="6" placeholder="How can I help?"></textarea>
+
+            <button class="btn btn-primary" type="submit">Send message</button>
+          </form>
+
+          <p id="formMsg" class="muted" style="margin-top:12px"></p>
+        </div>
+
+        <aside>
+          <div class="card">
+            <h4>Availability</h4>
+            <p>Open for freelance and full-time roles (UAE).</p>
+
+            <h4>Download CV</h4>
+            <a class="btn" href="resume/SANA-ZAKEER-ItEngineerResume.pdf" download>Download PDF</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="container footer">
+    <div>© <strong>Sana Zakeer</strong> — Web Designer & Developer • Dubai</div>
+  </footer>
+
+  <script src="static/scripts/script.js"></script>
+</body>
+</html>
